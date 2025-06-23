@@ -8,8 +8,8 @@ print("Olá Mundo")
 nome = input ("Qual seu nome? ")
 print(f"Ah, seu nome é {nome}, muito belo!")
 
-#Tipo de Dado - Para determinar o tipo de dado, você o indica e coloca o comando de entrada em parenteses
 #Operações - "+,-,/,*" são os simbolos para operações básicas, Soma, Subtração, Divisão e Multiplicação respectivamente.
+
 #Há outros, veja:
 #Exponenciação - 
 print(2 ** 3)
@@ -27,6 +27,7 @@ print(9.1 // 3.)
 
 print(14 % 4)
 
+#Tipo de Dado - Para determinar o tipo de dado, você o indica e coloca o comando de entrada em parenteses -
 #Int - Valor inteiro, sem ponto flutuante, ou seja 4 != 4.0 (quatro diferente de quatro ponto 0) visto que "." torna o valor float.
 
 n1 = int (input("digite um número: "))
@@ -42,6 +43,10 @@ print (f"a soma dos números que você digitou é {soma} e a subtração é {sub
 nFloat1 = float(input("digite um número de ponto flutuante: "))
 nFloat2 = float(input("digite um número de ponto flutuante qualquer novamente: "))
 print(f"A soma dos seus numeros é", nFloat1 + nFloat2)
+
+#String - Isso é uma via de mão dupla, tambem é possive tornar valores e tipos de dado em strings, assim:
+number = 10
+str(number)
 
 #Há ainda a operação de potência, para notação científica, ultilzamos o e ou E, por exemplo: 3E8 é o mesmo que 3x10^8 (3 vezes 10 á oitava)
 print(3e8)
@@ -73,4 +78,4 @@ print('Ola "Mundo"')
 # 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 
 # 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 
-#Criação de variáveis
+#fim da introdução
