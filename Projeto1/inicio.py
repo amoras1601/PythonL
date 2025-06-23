@@ -10,6 +10,22 @@ print(f"Ah, seu nome é {nome}, muito belo!")
 
 #Tipo de Dado - Para determinar o tipo de dado, você o indica e coloca o comando de entrada em parenteses
 #Operações - "+,-,/,*" são os simbolos para operações básicas, Soma, Subtração, Divisão e Multiplicação respectivamente.
+#Há outros, veja:
+#Exponenciação - 
+print(2 ** 3)
+print(2 ** 3.)
+print(2. ** 3)
+print(2. ** 3.)
+
+#Divisão Arredonda -
+print(6 // 3)
+print(6 // 3.)
+print(6. // 3)
+print(9.1 // 3.)
+
+#Restante (módulo) - O resultado do operador é o restante após a divisão do número inteiro. 14 / 4 == 3 (inteiro menor) e sobra 2 ----- 14 % 4 == 2
+
+print(14 % 4)
 
 #Int - Valor inteiro, sem ponto flutuante, ou seja 4 != 4.0 (quatro diferente de quatro ponto 0) visto que "." torna o valor float.
 
@@ -42,3 +58,19 @@ print("")
 #Ou então, aspas duplas entre aspas simples, assim:
 print('Ola "Mundo"')
 
+#Valores Booleanos - verificam a veracidade da coisa - Python é binário e trabalha com apenas dois valores de veracidade, True e False respectivamente 1 e 0.
+#Sim isso é verdade; Ou Não, isso é falso. Sempre.
+
+#Variáveis - caixas em forma de dados
+#o nome da variável deve ser composto de letras maiúsculas ou minúsculas, dígitos e o caractere _ (sublinhado)
+#o nome da variável deve começar com uma letra;
+#o caractere de sublinhado é uma letra;
+#as letras maiúsculas e minúsculas são tratadas como diferentes (um pouco diferente do que no mundo real - Alice e ALICE são os mesmos nomes, mas em Python são dois nomes de variáveis diferentes e, consequentemente, duas variáveis diferentes);
+#o nome da variável não deve ser nenhuma das palavras reservadas do Python (as palavras-chave - explicaremos mais sobre isso em breve).
+
+#Palavras reservadas
+#['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 
+# 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 
+# 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+#Criação de variáveis
