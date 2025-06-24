@@ -63,6 +63,14 @@ print("")
 #Ou então, aspas duplas entre aspas simples, assim:
 print('Ola "Mundo"')
 
+#Impressão de Várias Linhas - 3 aspas possibilitam varias linhas.
+print("""
+      Era uma vez
+      Os 3 manés
+      Eram doidos e malucoes
+      Muito manés.
+      """)
+
 #Valores Booleanos - verificam a veracidade da coisa - Python é binário e trabalha com apenas dois valores de veracidade, True e False respectivamente 1 e 0.
 #Sim isso é verdade; Ou Não, isso é falso. Sempre.
 
