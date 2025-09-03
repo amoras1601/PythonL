@@ -1,3 +1,5 @@
+# calcule a media ponderada de uma nota A com peso 2 e uma nota B com peso 3 e uma C com peso 5.  
+
 A = float(input())
 B = float(input())
 C = float(input())
