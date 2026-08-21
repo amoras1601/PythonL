@@ -45,9 +45,9 @@ Fornecer uma trilha clara para aprender Python desde conceitos básicos até tó
 - Use `Píton/0_material_complementar.py` para acessar links e recursos coletados.
 - Para contribuir: adicione novos exercícios em pastas existentes com um comentário explicando o objetivo e, se quiser, um link de referência.
 
-## Roadmap
+## Roadmap Exemplo
 
-1. Aprendendo o Básico (Completado / Em progresso)
+1. Aprendendo o Básico
    - Sintaxe Básica
    - Variáveis e Tipos de Dados
    - Condicionais
